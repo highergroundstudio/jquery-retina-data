@@ -18,7 +18,7 @@
                 e=$(e);
                 if(!e.attr('src')||!e.data('retina'))return;
                 r = e.data('retina');
-                e.attr('src', r).removeClass('retina').addClass('retina-displayed');
+                e.attr('src', r).addClass('retina-enabled');
             });
         }
         return this;
