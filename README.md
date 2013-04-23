@@ -4,7 +4,7 @@ jquery-retina-data
 A jquery retina display via data plugin
 
 ## Facts
-* 770 bytes uncompressed
+* 600 bytes uncompressed
 * 238 bytes compressed (That is insane!!!)
 * Built to be small, fast, and simple
 
