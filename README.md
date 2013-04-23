@@ -5,7 +5,7 @@ A jquery retina display via data plugin
 
 # Usage
 
-```js
+```html
 <script src="js/jquery.retinaData.js" type="text/javascript"></script>
 <script type="text/javascript">
     $(document).ready(function() {
