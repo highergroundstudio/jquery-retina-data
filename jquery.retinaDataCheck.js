@@ -1,6 +1,7 @@
 /*
     Name: Retina data
     Description: A jquery retina display via data plugin
+    Url: https://github.com/highergroundstudio/jquery-retina-data
     Author: Kyle King (http://highergroundstudio.com)
     Date: 04/23/2013
     Version: 1.0.0
