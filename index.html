@@ -8,6 +8,12 @@
     <link rel="stylesheet" href="stylesheets/styles.css">
     <link rel="stylesheet" href="stylesheets/pygment_trac.css">
     <script src="javascripts/scale.fix.js"></script>
+    <script src="javascripts/jquery.retinaData.min.js"></script>
+    <script type="text/javascript">
+      $(document).ready(function() {
+          $('img.retina').retinaData();
+      });
+    </script>
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
     <!--[if lt IE 9]>
     <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
@@ -33,6 +39,12 @@
         <h1>jquery-retina-data</h1>
 
 <p>A jquery retina display via data plugin</p>
+
+<h2>Example</h2>
+<h3>Non retina image (no data-retina)</h3>
+<img class="no-retina" src="images/cairn500x333.jpg" width="500" height="333" alt="Cairn">
+<h3>Retina Image</h3>
+<img class="retina" src="images/cairn500x333.jpg" data-retina="images/cairn1000x667.jpg" width="500" height="333" alt="Cairn">
 
 <h2>Facts</h2>
 
