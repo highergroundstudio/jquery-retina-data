@@ -8,8 +8,7 @@
 
 (function( $ ){
     $.fn.retinaData = function() {
-        // if(window.devicePixelRatio >= 2) {
-        if(true){
+        if(window.devicePixelRatio >= 2) {
             // i = index
             // e = element
             // r = retina url
