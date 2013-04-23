@@ -3,6 +3,8 @@ jquery-retina-data
 
 A jquery retina display via data plugin
 
+View examples at http://highergroundstudio.github.io/jquery-retina-data/
+
 ## Facts
 * 600 bytes uncompressed
 * 238 bytes compressed (That is insane!!!)
